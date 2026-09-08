@@ -34,7 +34,9 @@ function update(){
         }
     })
 
-    const actives = document.querySelectorAll(".active");
+    const actives = document.querySelectorAll(".active"); /*yazarak "Bana o an active etiketine sahip kaç tane daire varsa onların sayısını getir" demiş oluyoruz.
+
+    Özetle; active sınıfı, JavaScript'in CSS'e "Hey, kullanıcı bu adıma ulaştı, bu daireyi pembe yap!" deme yöntemidir.*/
 
      //console.log(actives.length, circles.length);
      //console.log(actives.length / circles.length);
