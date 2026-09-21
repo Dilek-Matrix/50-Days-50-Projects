@@ -20,5 +20,6 @@ function stopSongs() {
         const song = document.getElementById(sound)
 
         song.pause()
+        song.currentTime = 0
     })
 }
